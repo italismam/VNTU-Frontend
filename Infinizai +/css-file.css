@@ -1,0 +1,585 @@
+html{
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    margin: 0;
+}
+.first-stage__background{
+    position: absolute;
+    width: 43.38vw;
+    height: 88.24vw;
+    right: 0;
+    z-index: -1;
+}
+.first-stage{
+    z-index: 2;
+    color: white;
+}
+.first-stage__top{
+    height: 7vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4.17vw 0 4.17vw;
+}
+.first-stage__top-logo{
+    width: 11.81vw;
+    height: 3.33vw;
+}
+.first-stage__top-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 35.49vw;
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.81vw;
+}
+.first-stage__top-item--active{
+    color: #FAC422;
+}
+.first-stage__top-cart-and-button{
+    display: flex;
+    align-items: center;
+}
+.first-stage__top-cart{
+    width: 3.61vw;
+    height: 2.78vw;
+    margin-right: 1.5vw;
+}
+.first-stage__top-button{
+    background-color: #57B8FF;
+    padding: 1.11vw 2.15vw;
+    font-family: 'Orbitron', sans-serif;
+    border: 0.07vw solid white;
+    font-size: 1.25vw;
+    line-height: 2.08vw;
+}
+
+.first-stage__bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 14.86vw;
+}
+.first-stage__bottom-side-socials{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 5.40vw;
+}
+.first-stage__bottom-icon{
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    color: #80858F;
+    font-size: 0.76vw;
+    line-height: 1.74vw;
+}
+.first-stage__bottom-left{
+    margin-top: 3vw;
+}
+.first-stage__bottom-subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.56vw;
+}
+.first-stage__bottom-fire-image{
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.first-stage__bottom-small{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.11vw;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+.first-stage__bottom-title{
+    margin-top: 0.97vw;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 5.97vw;
+    text-transform: capitalize;
+    margin-bottom: 1vw;
+}
+.first-stage__bottom-text{
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    color: #999999;
+    margin-top: 3.13vw;
+}
+.first-stage__bottom-buttons{
+    margin-top: 3.68vw;
+}
+.first-stage__bottom-left-button{
+    background-color: #57B8FF;
+    padding: 1.46vw 2.36vw;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+}
+.first-stage__bottom-right-button{
+    background-color: black;
+    padding: 1.46vw 2.36vw;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+}
+.first-stage__bottom-fortnite-image{
+    margin-top: 3vw;
+    width: 45.83vw;
+    height: 35.97vw;
+}
+
+.second-stage{
+    background: #FDD04A;
+    margin-top: 11.38vw;
+    height: 37.64vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-stage__title{
+    font-weight: 400;
+    font-size: 3.33vw;
+    line-height: 4.03vw;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222730;
+}
+.second-stage__text{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.81vw;
+    text-align: center;
+    color: #555555;
+}
+.second-stage__sponsors-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.92vw;
+    column-gap: 2.22vw;
+}
+.second-stage__icon{
+    width: 13.40vw;
+    height: 6.18vw;
+}
+
+.third-stage{
+    background-image: url(Images/fort-map.png);
+    background-size: cover;
+    height: 74.44vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.third-stage__subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.56vw;
+}
+.third-stage__fire-image{
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.third-stage__small{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.11vw;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+.third-stage__title{
+    margin-top: 0;
+    margin-bottom: 1vw;
+    font-weight: 400;
+    font-size: 4.44vw;
+    line-height: 5.14vw;
+    text-align: center;
+    text-transform: capitalize;
+}
+.third-stage__text{
+    font-weight: 400;
+    font-size: 1.39vw;
+    line-height: 2.22vw;
+    text-align: center;
+    color: rgba(223, 223, 223, 0.8);
+}
+.third-stage__blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.22vw;
+    margin-top: 3.24vw;
+}
+.third-stage__left-top-block, .third-stage__right-top-block, 
+.third-stage__left-bottom-block, .third-stage__right-bottom-block{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 1.39vw;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.11vw;
+    align-items: baseline;
+}
+.third-stage__block-left{
+    height: 2.01vw;
+    width: 2.01vw;
+    padding: 2.43vw 0 0 2.43vw;
+}
+.third-stage__block-right{
+    display: flex;
+    flex-direction: column;
+}
+.third-stage__block-title{
+    font-weight: 400;
+    font-size: 2.22vw;
+    line-height: 2.92vw;
+    text-transform: capitalize;
+}
+.third-stage__block-text{
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    color: rgba(223, 223, 223, 0.8);
+    padding: 0 2.50vw 2.22vw 0;
+}
+
+.four-stage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 56.25vw;
+    column-gap: 7.43vw;
+}
+.four-stage__subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.56vw;
+}
+.four-stage__fire-image{
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.four-stage__small{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.11vw;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+.four-stage__title{
+    margin-top: 0;
+    margin-bottom: 2.5vw;
+    font-weight: 400;
+    font-size: 4.44vw;
+    line-height: 5.14vw;
+    text-transform: capitalize;
+}
+.four-stage__text{
+    font-weight: 400;
+    font-size: 1.39vw;
+    line-height: 2.22vw;
+    color: rgba(223, 223, 223, 0.8);
+}
+.four-stage__button{
+    background-color: #57B8FF;
+    padding: 1.46vw 2.36vw;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    color: white;
+}
+.four-stage__right{
+    width: 34.17vw;
+    height: 38.19vw;
+}
+
+.fifth-stage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8.89vw;
+    height: 48.26vw;
+    color: white;
+    background-color:#2A313C;
+}
+.fifth-stage__subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.56vw;
+}
+.fifth-stage__fire-image{
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.fifth-stage__small{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.11vw;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+.fifth-stage__title{
+    margin-top: 0;
+    margin-bottom: 2.5vw;
+    font-weight: 400;
+    font-size: 4.44vw;
+    line-height: 5.14vw;
+    text-transform: capitalize;
+}
+.fifth-stage__text{
+    font-weight: 400;
+    font-size: 1.39vw;
+    line-height: 2.22vw;
+    color: rgba(223, 223, 223, 0.8);
+}
+.fifth-stage__left{
+    width: 41.39vw;
+    height: 48.26vw;
+}
+.fifth-stage__gameplay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.08vw;
+}
+.fifth-stage__image--active{
+    background-color: #3B3D46;
+    padding: 0.76vw;
+    border-radius: 1.39vw;
+    width: 12.08vw;
+    height: 7.08vw;
+}
+.fifth-stage__image{
+    width: 12.08vw;
+    height: 7.08vw;
+}
+.six-stage{
+    display: flex;
+    flex-direction: row;
+    background-color:#2A313C;
+}
+.six-stage__image{
+    margin-top: 0;
+    width: 33.33vw;
+    height: 50vw;
+}
+.seven-stage{
+    display: flex;
+    flex-direction: column;
+    height: 84.86vw;
+    color: white;
+}
+.seven-stage__top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 9.44vw 4.17vw 0 4.17vw;
+}
+.seven-stage__left{
+    display: flex;
+    flex-direction: column;
+}
+.seven-stage__subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.56vw;
+}
+.seven-stage__fire-image{
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.seven-stage__small{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.11vw;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+.seven-stage__title{
+    margin-top: 0;
+    margin-bottom: 3.5vw;
+    font-weight: 400;
+    font-size: 4.44vw;
+    line-height: 5.14vw;
+    text-transform: capitalize;
+}
+.seven-stage__bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 1.67vw;
+    margin-left: 4.17vw;
+}
+.seven-stage__bottom-left{
+    display: flex;
+    flex-direction: column;
+}
+.seven-stage__main-image{
+    width: 45vw;
+    height: 35.42vw;
+}
+.seven-stage__blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.94vw;
+}
+.seven-stage__data{
+    margin-top: 3.75vw;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.25vw;
+    color: #57B8FF;
+    margin-bottom: 0;
+}
+.seven-stage__small-title{
+    font-weight: 400;
+    font-size: 2.50vw;
+    line-height: 3.19vw;
+    text-transform: capitalize;
+}
+.seven-stage__image{
+    width: 21.67vw;
+    height: 13.13vw;
+}
+.seven-stage__text{
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 2.36vw;
+    text-transform: capitalize;
+}
+.seven-stage__small-data{
+    font-weight: 400;
+    font-size: 1.11vw;
+    line-height: 1.11vw;
+    color: #57B8FF;
+}
+.seven-stage__button{
+    background-color: #57B8FF;
+    padding: 1.46vw 2.36vw;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.25vw;
+    line-height: 2.08vw;
+    color: white;
+}
+
+.eight-stage{
+    background-image: url(Images/yellow-background.png);
+    background-size: cover;
+    height: 47.43vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eight-stage__title{
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 5vw;
+    line-height: 5.69vw;
+    text-align: center;
+    color: #141820;
+}
+.eight-stage__text{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    text-align: center;
+    color: #555555;
+}
+.eight-stage__email{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.13vw;
+}
+.eight-stage__input{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    color: #555555;
+    text-transform: capitalize;
+    padding: 1.81vw 15.69vw 1.81vw 0.90vw;
+    border: none;
+}
+.eight-stage__button{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.94vw;
+    color: #FFFFFF;
+    border: none;
+    background-color: #57B8FF;
+    padding: 0.56vw;
+}
+.nine-stage{
+    color: white;
+    height: 26.21vw;
+    background-color:  #222730;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nine-stage__logo{
+    width: 11.81vw;
+    height: 3.33vw;
+}
+.nine-stage__text{
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.74vw;
+    color: #999999;
+    margin-top: 3vw;
+}
+.nine-stage__first-block, .nine-stage__second-block,
+.nine-stage__third-block, .nine-stage__four-block{
+    margin-top: 8.03vw;
+}
+.nine-stage__first-block{
+    display: flex;
+    flex-direction: column;
+}
+.nine-stage__title{
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 2.08vw;
+    text-transform: capitalize;
+}
+.nine-stage__list{
+    margin-top: 1.60vw;
+    list-style-type: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 2.64vw;
+    text-transform: capitalize;
+    color: #999999;
+}
+.nine-stage__socials{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.11vw;
+}
+.nine-stage__image{
+    height: 3.33vw;
+    width: 3.33vw;
+}
